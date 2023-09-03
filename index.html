@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day25-Dropdown Navigation menu using HTML CSS and JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-left">
+        <h2>Azier Ahmad</h2>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#pages">Pages</a></li>
+          <label for="service"></label>
+          <li class="services" id="dropdown">
+            <a href="#services"
+              >Services <i class="fa-solid fa-caret-down"></i
+            ></a>
+            <ul class="toggle">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Web Development</a></li>
+            </ul>
+          </li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
